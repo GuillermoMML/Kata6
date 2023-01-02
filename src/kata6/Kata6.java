@@ -53,7 +53,7 @@ public class Kata6 {
     }
  
     public static void Serializarlo(){
-        //Para este ejemplo cogemos el primer objecto de nuestro array y lo serializamos
+        
         Gson gson = new Gson();
         String jsonS = "{'userId':99,'id':99,'title':'Serializarlo Title','body':'Serializarlo Body'}";
         Post post = gson.fromJson(jsonS, Post.class);
